@@ -1,0 +1,105 @@
+/* IS 117 - Assignment A07 CSS (Exercise 5-1) */
+
+/* Global Reset & Base Styles */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 100%;
+    width: 800px;
+    margin: 0 auto;
+    border: 3px solid #931420;
+    background-color: #fff6e6; /* Distinct background color */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+/* Header with Linear Gradient & Top-Left Logo */
+header {
+    padding: 15px 20px;
+    background: linear-gradient(to bottom, #f3d4a0, #931420); /* Linear gradient background */
+    border-bottom: 3px solid #931420;
+    position: relative;
+    height: 120px;
+}
+
+header img {
+    float: left; /* Logo in upper left of header */
+    margin-right: 20px;
+    height: 80px;
+}
+
+header h2 {
+    color: #931420;
+    font-size: 170%;
+    font-style: italic;
+    margin-top: 5px;
+}
+
+header h3 {
+    color: #000;
+    font-size: 130%;
+    margin-top: 5px;
+}
+
+/* Main Content Area Formatting */
+main {
+    padding: 20px;
+    clear: both;
+}
+
+/* Rounded Edged Box for "This Season's Guests" (Extra Credit) */
+main h2.season-guests {
+    display: inline-block;
+    color: #931420;
+    border: 2px solid #931420;
+    border-radius: 10px; /* Rounded corners */
+    padding: 8px 15px;
+    margin-bottom: 15px;
+    background-color: #fff;
+}
+
+main h3 {
+    color: #931420;
+    margin-top: 15px;
+    margin-bottom: 8px;
+}
+
+main p {
+    line-height: 1.5;
+    margin-bottom: 15px;
+}
+
+/* Guest Cards / List Items */
+.guest-item {
+    margin-bottom: 20px;
+    padding: 10px;
+    border-bottom: 1px dashed #931420;
+}
+
+.guest-item img {
+    float: left;
+    margin-right: 15px;
+    border: 1px solid #931420;
+}
+
+.guest-item h3 {
+    margin-top: 0;
+}
+
+/* Footer & Copyright Styling */
+footer {
+    clear: both;
+    background-color: #931420;
+    color: #ffffff;
+    text-align: center;
+    padding: 15px;
+    font-size: 90%;
+}
+
+footer p {
+    margin: 0;
+}
